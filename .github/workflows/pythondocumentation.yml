@@ -27,7 +27,7 @@ jobs:
       run: |
         sphinx-build docs/source docs/build/html
     - name: Documentation artifacting
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: documentation
         path: docs/build/html
